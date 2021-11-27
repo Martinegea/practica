@@ -1,0 +1,11 @@
+.boton {
+  background-color: aqua;
+}
+
+.boton:hover {
+  color: azure;
+}
+
+.form-control {
+  resize: none;
+}
