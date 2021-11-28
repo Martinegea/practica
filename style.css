@@ -1,3 +1,7 @@
+.botonesnav {
+  margin-left: 20px;
+}
+
 .boton {
   background-color: aqua;
 }
@@ -8,4 +12,36 @@
 
 .form-control {
   resize: none;
+}
+
+.ciruloc {
+  filter: contrast(20);
+  background-color: white;
+}
+
+.cirluloitem {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: blue;
+  margin: 10px;
+  color: white;
+  padding-top: 40px;
+  padding-left: 30px;
+  border-radius: 50%;
+  filter: blur(10px);
+}
+
+.cirluloitem:first-child {
+  animation: trasladar 2s alternate infinite;
+}
+
+@keyframes trasladar {
+  0% {
+    transform: translate(0);
+  }
+
+  100% {
+    transform: translate(50px);
+  }
 }

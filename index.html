@@ -12,31 +12,54 @@
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
  <body>
-	<header>
-    <nav class="navbar navbar-dark bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Inicio</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Historia</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Material</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Anecdota</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled">Contacto</a>
-            </li>
-          </ul>
+   <header>
+      <nav class="navbar navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">SobreRieles</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">SobreRieles</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="historia.html">Historia</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="material.html">Material</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="trenes.html">Trenes</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="anecdota.html">Anecdota</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
 	</header>
 	<section class="section-grid">
 		<article class="section__Article">
@@ -47,16 +70,16 @@
               Su creación fue fruto de la nacionalización de empresas privadas británicas y francesas y su fusión con los Ferrocarriles del Estado entre 1947 y 1948. Hasta 1956 los ferrocarriles nacionalizados operaron como virtuales empresas independientes en el marco de la Empresa Nacional de Transportes (ENT). Esta fue disuelta y reemplazada por la Empresa de Ferrocarriles del Estado Argentino (EFEA), que adoptaría años después el nombre definitivo de Ferrocarriles Argentinos.</p>
         </article>
         <div class="card" style="width: 18rem;">
-          <img src="descarga.png" class="card-img-top" alt="tren">
+          <img src="trenn.png" class="card-img-top" alt="tren">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             <a href="#" class="btn boton">Go somewhere</a>
           </div>
         </div>
-        <div class="video" id="videoe">
-             <iframe width="560" height="315" src="https://www.youtube.com/embed/8kiuVR_CzPU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video__Iframe"></iframe>
-      
+        <div class="ciruloc">
+          <div class="cirluloitem circulo1">Sobre</div>
+          <div class="cirluloitem">Rieles</div>
         </div>
 	</section>
 	<footer class="footer-grid">
