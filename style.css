@@ -1,47 +1,99 @@
-.botonesnav {
-  margin-left: 20px;
+body {
+  background: rgb(148, 168, 248);
 }
 
-.boton {
-  background-color: aqua;
+.section__Article {
+  margin-top: 57px;
 }
 
-.boton:hover {
-  color: azure;
+.section__Titulo {
+  font-size: 25px;
+  font-weight: 800;
+  text-align: center;
+  padding: 5px;
 }
 
-.form-control {
-  resize: none;
+.section__Parrafo {
+  display: flex;
+  font-size: 20px;
+  margin-left: 5px;
+  padding: 10px;
 }
 
-.ciruloc {
-  filter: contrast(20);
-  background-color: white;
+.video {
+  text-align: center;
 }
 
-.cirluloitem {
-  display: inline-block;
-  width: 100px;
-  height: 100px;
-  background: blue;
-  margin: 10px;
-  color: white;
-  padding-top: 40px;
-  padding-left: 30px;
-  border-radius: 50%;
-  filter: blur(10px);
+.footer-grid {
+  background: rgb(255, 255, 255, 0.8);
 }
 
-.cirluloitem:first-child {
-  animation: trasladar 2s alternate infinite;
+.form-label {
+  padding-left: 5px;
+  padding-top: 5px;
 }
 
-@keyframes trasladar {
-  0% {
-    transform: translate(0);
+.redes__P {
+  margin-left: 5px;
+}
+
+.div-container i {
+  margin-left: 5px;
+  margin-right: 15px;
+}
+
+.iconos {
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+}
+
+/* HISTORIA */
+
+.historia {
+  margin-top: 57px;
+}
+
+.section__Titulos {
+  font-size: 30px;
+  padding: 10px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.section__Parrafos {
+  margin-left: 10px;
+  font-size: 1rem;
+  padding: 10px;
+}
+
+.section__Parrafos::first-letter {
+  font-family: serif;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.conteiner {
+  text-align: center;
+}
+
+.conteiner__imagen {
+  width: 700px;
+  height: 400px;
+  box-shadow: 2px 2px 20px 0 black;
+  filter: contrast(1.2);
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 660px) {
+  .video iframe {
+    text-align: left;
+    height: 400px;
+    width: 310px;
   }
 
-  100% {
-    transform: translate(50px);
+  .conteiner__imagen {
+    width: 319px;
+    height: 200px;
+    margin-left: 0px;
   }
 }

@@ -24,8 +24,11 @@
               <h5 class="offcanvas-title" id="offcanvasNavbarLabel">SobreRieles</h5>
               <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
-            <div class="offcanvas-body">
+            <ul class="offcanvas-body">
               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                </li>
                 <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="historia.html">Historia</a>
                 </li>
@@ -38,25 +41,8 @@
                 <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="anecdota.html">Anecdota</a>
                 </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Dropdown
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li>
-                      <hr class="dropdown-divider">
-                    </li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                  </ul>
-                </li>
-              </ul>
-              <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-              </form>
-            </div>
+              </ul> 
+            </ul> 
           </div>
         </div>
       </nav>
@@ -69,39 +55,31 @@
 
               Su creación fue fruto de la nacionalización de empresas privadas británicas y francesas y su fusión con los Ferrocarriles del Estado entre 1947 y 1948. Hasta 1956 los ferrocarriles nacionalizados operaron como virtuales empresas independientes en el marco de la Empresa Nacional de Transportes (ENT). Esta fue disuelta y reemplazada por la Empresa de Ferrocarriles del Estado Argentino (EFEA), que adoptaría años después el nombre definitivo de Ferrocarriles Argentinos.</p>
         </article>
-        <div class="card" style="width: 18rem;">
-          <img src="trenn.png" class="card-img-top" alt="tren">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn boton">Go somewhere</a>
-          </div>
-        </div>
-        <div class="ciruloc">
-          <div class="cirluloitem circulo1">Sobre</div>
-          <div class="cirluloitem">Rieles</div>
-        </div>
 	</section>
+  <div class="video">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/8kiuVR_CzPU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video__Iframe"></iframe>
+     
+   </div>
 	<footer class="footer-grid">
-    <form class="footer__Form">
+    <form class="footer__Form"> 
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Ingrese su Email</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Escriba su mensaje</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Mensaje"></textarea>
+          </div>
           <div class="footer__Div redes">
-             <p class="redes__P">Redes sociales</p>
-             <div class="div-container">
-               <i class="fab fa-instagram-square"></i>
-               <i class="fab fa-facebook-square"></i>
-               <i class="fab fa-twitter-square"></i>
-               <i class="fab fa-linkedin"></i>
-             </div>
-          </div> 
-          <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-          </div>
-          <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-          </div>
-          </div>
+            <p class="redes__P">Redes sociales</p>
+            <div class="div-container">
+              <i class="fab fa-instagram-square iconos"></i>
+              <i class="fab fa-facebook-square iconos"></i>
+              <i class="fab fa-twitter-square iconos"></i>
+              <i class="fab fa-linkedin iconos"></i>
+            </div>
+          </div>  
+
 
     </form> 
   </footer>
