@@ -1,5 +1,13 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
 body {
   background: rgb(148, 168, 248);
+  line-height: 2.5;
 }
 
 .navbar-brand {
@@ -7,7 +15,7 @@ body {
 }
 
 .section__Article {
-  margin-top: 57px;
+  margin-top: 80px;
 }
 
 .section__Titulo {
@@ -63,7 +71,7 @@ body {
 /* HISTORIA */
 
 .historia {
-  margin-top: 57px;
+  margin-top: 80px;
 }
 
 .section__Titulos {
@@ -88,7 +96,6 @@ body {
 .card {
   margin-left: 20px;
   margin-bottom: 15px;
-  text-align: center;
 }
 
 /* MATERIAL */
@@ -106,7 +113,7 @@ body {
   font-size: 30px;
   padding: 10px;
   font-weight: 800;
-  margin-top: 57px;
+  margin-top: 80px;
 }
 
 .material__Parrafo {
@@ -142,11 +149,21 @@ body {
 }
 
 .trenes__Titulo {
-  margin-top: 57px;
+  margin-top: 80px;
   font-size: 30px;
   padding: 10px;
   font-weight: 800;
   text-align: center;
+}
+
+.lsm {
+  background: rgb(8, 104, 104);
+  color: rgb(255, 255, 255);
+}
+
+.gm {
+  background: rgb(30, 11, 204);
+  color: rgb(255, 255, 255);
 }
 
 .ferro__Referencias--titulo {
@@ -163,7 +180,7 @@ body {
 /* ANECDOTA */
 
 .anecdota__Div--titulo {
-  margin-top: 57px;
+  margin-top: 80px;
   text-align: center;
   font-size: 30px;
   padding: 10px;
@@ -184,7 +201,10 @@ body {
 }
 
 .carousel {
+  margin-left: 370px;
   margin-bottom: 20px;
+  width: 50%;
+  box-shadow: 2px 2px 10px 0 black;
 }
 
 .d-block {
@@ -207,5 +227,14 @@ body {
 
   .material__Titulo {
     font-size: 20px;
+  }
+
+  .table-responsive {
+    display: none;
+  }
+
+  .carousel {
+    width: 100%;
+    margin-left: 10px;
   }
 }
