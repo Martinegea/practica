@@ -1,0 +1,185 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-size: 1rem;
+  text-decoration: none; }
+
+body {
+  background: #94a8f8;
+  line-height: 2.5; }
+
+.navbar-brand {
+  font-weight: 600; }
+
+.section__Article {
+  margin-top: 80px; }
+
+.section__Titulo {
+  font-size: 25px;
+  font-weight: 800;
+  text-align: center;
+  padding: 5px; }
+
+.section__Parrafo {
+  display: flex;
+  font-size: 20px;
+  margin-left: 5px;
+  padding: 10px; }
+
+.video {
+  text-align: center; }
+
+.footer-grid {
+  background: white; }
+
+.form-label {
+  padding-left: 5px;
+  padding-top: 5px; }
+
+.form-control {
+  resize: none; }
+
+.btn {
+  margin-left: 5px;
+  margin-bottom: 10px; }
+
+.redes__P {
+  margin-left: 5px; }
+
+.div-container i {
+  margin-left: 5px;
+  margin-right: 15px; }
+
+.iconos {
+  font-size: 40px;
+  color: black; }
+
+.historia {
+  margin-top: 80px; }
+
+.section__Titulos {
+  font-size: 30px;
+  padding: 10px;
+  font-weight: 800;
+  text-align: center; }
+
+.section__Parrafos {
+  margin-left: 10px;
+  font-size: 1rem;
+  padding: 10px; }
+
+.section__Parrafos::first-letter {
+  font-family: serif;
+  font-size: 25px;
+  font-weight: 600; }
+
+.card {
+  margin-left: 20px;
+  margin-bottom: 15px; }
+
+.material__Lista {
+  margin-left: 10px; }
+
+.material__Lista--item {
+  padding: 2px; }
+
+.material__Titulo {
+  text-align: center;
+  font-size: 30px;
+  padding: 10px;
+  font-weight: 800;
+  margin-top: 80px; }
+
+.material__Parrafo {
+  font-size: 1rem;
+  margin-left: 5px;
+  padding: 10px; }
+
+.marterial__Subtitulo {
+  margin-left: 10px;
+  font-size: 25px;
+  padding: 10px;
+  font-weight: 500; }
+
+.listamaterial li {
+  background: #94a8f8;
+  margin-left: 20px;
+  margin-bottom: 10px; }
+
+.material__Imagen {
+  margin-left: 10px;
+  width: 422px;
+  box-shadow: 2px 2px 10px 0 black;
+  float: right; }
+
+.trenes__Conteiner--titulo {
+  text-align: center; }
+
+.trenes__Titulo {
+  margin-top: 80px;
+  font-size: 30px;
+  padding: 10px;
+  font-weight: 800;
+  text-align: center; }
+
+.lsm {
+  background: #086868;
+  color: white; }
+
+.gm {
+  background: #1e0bcc;
+  color: white; }
+
+.ferro__Referencias--titulo {
+  margin-left: 10px;
+  font-size: 30px;
+  font-weight: 800; }
+
+.ferro__Referencias--item {
+  padding: 10px 10px;
+  font-size: 1rem; }
+
+.anecdota__Div--titulo {
+  margin-top: 80px;
+  text-align: center;
+  font-size: 30px;
+  padding: 10px;
+  font-weight: 800; }
+
+.anecdota__Div--titulo2 {
+  text-align: center;
+  font-size: 25px;
+  padding: 10px;
+  font-weight: 500; }
+
+.anecdota__Div--parrafo {
+  font-size: 1rem;
+  margin-left: 5px;
+  padding: 10px; }
+
+.carousel {
+  margin-left: 370px;
+  margin-bottom: 20px;
+  width: 50%;
+  box-shadow: 2px 2px 10px 0 black; }
+
+.d-block {
+  width: 600px;
+  height: 500px; }
+
+@media only screen and (max-width: 660px) {
+  .video iframe {
+    text-align: left;
+    height: 400px;
+    width: 310px; }
+  .conteiner__imagen {
+    width: 319px;
+    height: 200px;
+    margin-left: 0px; }
+  .material__Titulo {
+    font-size: 20px; }
+  .table-responsive {
+    display: none; }
+  .carousel {
+    width: 100%;
+    margin-left: 10px; } }

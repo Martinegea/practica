@@ -1,0 +1,41 @@
+.material__Lista {
+  margin-left: 10px;
+}
+
+.material__Lista--item {
+  padding: 2px;
+}
+
+.material__Titulo {
+  text-align: center;
+  font-size: 30px;
+  padding: 10px;
+  font-weight: 800;
+  margin-top: 80px;
+}
+
+.material__Parrafo {
+  font-size: 1rem;
+  margin-left: 5px;
+  padding: 10px;
+}
+
+.marterial__Subtitulo {
+  margin-left: 10px;
+  font-size: 25px;
+  padding: 10px;
+  font-weight: 500;
+}
+
+.listamaterial li {
+  background: rgb(148, 168, 248);
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.material__Imagen {
+  margin-left: 10px;
+  width: 422px;
+  box-shadow: 2px 2px 10px 0 black;
+  float: right;
+}

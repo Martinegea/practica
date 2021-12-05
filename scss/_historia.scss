@@ -1,0 +1,27 @@
+.historia {
+  margin-top: 80px;
+}
+
+.section__Titulos {
+  font-size: 30px;
+  padding: 10px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.section__Parrafos {
+  margin-left: 10px;
+  font-size: 1rem;
+  padding: 10px;
+}
+
+.section__Parrafos::first-letter {
+  font-family: serif;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.card {
+  margin-left: 20px;
+  margin-bottom: 15px;
+}

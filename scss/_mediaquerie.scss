@@ -1,0 +1,26 @@
+@media only screen and (max-width: 660px) {
+  .video iframe {
+    text-align: left;
+    height: 400px;
+    width: 310px;
+  }
+
+  .conteiner__imagen {
+    width: 319px;
+    height: 200px;
+    margin-left: 0px;
+  }
+
+  .material__Titulo {
+    font-size: 20px;
+  }
+
+  .table-responsive {
+    display: none;
+  }
+
+  .carousel {
+    width: 100%;
+    margin-left: 10px;
+  }
+}
