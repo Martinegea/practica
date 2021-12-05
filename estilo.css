@@ -9,7 +9,10 @@ body {
   line-height: 2.5; }
 
 .navbar-brand {
-  font-weight: 600; }
+  font-weight: 700; }
+
+.offcanvas-title {
+  font-weight: 700; }
 
 .section__Article {
   margin-top: 80px; }
