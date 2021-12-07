@@ -1,6 +1,8 @@
 @media only screen and (max-width: 1000px) {
   .cartashistoria {
     display: block;
+    margin-left: 30%;
+    margin-bottom: 15px;
   }
 
   .carousel {
@@ -46,6 +48,11 @@
     width: 319px;
     height: 200px;
     margin-left: 0px;
+  }
+
+  .cartashistoria {
+    margin-left: 10px;
+    margin-bottom: 20px;
   }
 
   .material__Titulo {

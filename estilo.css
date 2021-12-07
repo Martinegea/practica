@@ -50,6 +50,7 @@ body {
   font-weight: bold; }
 
 .div-gridredes p {
+  margin-left: 20px;
   font-size: 18px;
   text-transform: uppercase;
   color: black;
@@ -65,38 +66,41 @@ body {
   height: 70px;
   margin-left: 10px;
   padding: 5px;
-  background: black;
+  background: white;
   border: none;
   border-bottom: 3px solid #94a8f8;
   outline: none;
-  color: white;
+  color: black;
+  text-align: left;
   font-family: "Nunito", sans-serif; }
 
 .casilleros:hover {
-  background: linear-gradient(to bottom, #645a5a, black);
+  background: linear-gradient(to bottom, #ebe0e0, #888484);
   border-bottom: 3px solid #94a8f8;
   outline: none; }
 
 .div-grid__Input textarea {
-  resize: none; }
+  resize: none;
+  padding-top: 10px; }
 
 .botoncito {
   width: 20%;
   margin-right: 10px;
-  text-align: left;
+  text-align: center;
   font-weight: bold;
-  border-bottom: none;
+  border: 1px solid #94a8f8;
+  border-radius: 2%;
   cursor: pointer; }
 
 .div-grid__Redes {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin-top: 20px;
   flex-wrap: wrap; }
 
 .div-grid__Redes i {
-  font-size: 60px;
-  color: #8ca8f8; }
+  font-size: 70px;
+  color: #94a8f8; }
 
 .div-grid__Donaciones {
   display: flex;
@@ -113,7 +117,7 @@ body {
   font-weight: bold; }
 
 .div-grid__Donaciones i {
-  font-size: 40px;
+  font-size: 70px;
   margin-left: 50px;
   color: #8ca8f8; }
 
@@ -139,24 +143,25 @@ body {
   resize: none; }
 
 .footer__Input-responsive {
-  width: 50%;
+  width: 90%;
   margin-left: 10px;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
   padding: 10px;
-  background: black;
+  background: white;
   border: none;
-  border-bottom: 3px solid #94a8f8;
+  border-bottom: 2px solid #94a8f8;
   outline: none;
-  color: white;
+  color: black;
   font-family: "Nunito", sans-serif; }
 
 .submit-responsive {
   font-weight: bold;
   border-bottom: none;
-  cursor: pointer; }
+  cursor: pointer;
+  border: 1px solid #94a8f8; }
 
 .footer__Input-responsive:hover {
-  background: linear-gradient(to bottom, #645a5a, black);
+  background: linear-gradient(to bottom, #ebe0e0, #888484);
   border-bottom: 3px solid #94a8f8;
   outline: none; }
 
@@ -339,7 +344,9 @@ body {
 
 @media only screen and (max-width: 1000px) {
   .cartashistoria {
-    display: block; }
+    display: block;
+    margin-left: 30%;
+    margin-bottom: 15px; }
   .carousel {
     margin-left: 100px; }
   .footer-grid {
@@ -369,6 +376,9 @@ body {
     width: 319px;
     height: 200px;
     margin-left: 0px; }
+  .cartashistoria {
+    margin-left: 10px;
+    margin-bottom: 20px; }
   .material__Titulo {
     font-size: 20px; }
   .table-responsive {
