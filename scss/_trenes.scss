@@ -11,13 +11,23 @@
 }
 
 .lsm {
-  background: rgb(8, 104, 104);
-  color: rgb(255, 255, 255);
+  background: rgb(153, 210, 218);
+  color: rgb(0, 0, 0);
 }
 
 .gm {
-  background: rgb(30, 11, 204);
+  background: rgb(129, 123, 185);
+  color: rgb(0, 0, 0);
+}
+
+.encabezado {
+  background: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
+}
+
+.div__Tr--tdsm,
+.div__Tr--tdgm {
+  font-size: 15px;
 }
 
 .ferro__Referencias--titulo {

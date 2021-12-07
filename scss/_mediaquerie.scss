@@ -1,3 +1,40 @@
+@media only screen and (max-width: 1000px) {
+  .cartashistoria {
+    display: block;
+  }
+
+  .carousel {
+    margin-left: 100px;
+  }
+
+  .footer-grid {
+    display: none;
+  }
+
+  .footer-responsive {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .carousel {
+    width: 400px;
+    height: 300px;
+    margin-left: 170px;
+  }
+
+  .carousel-inner {
+    width: 400px;
+    height: 300px;
+  }
+
+  .imagen1,
+  .imagen2 {
+    width: 400px;
+    height: 300px;
+  }
+}
+
 @media only screen and (max-width: 660px) {
   .video iframe {
     text-align: left;
@@ -20,7 +57,31 @@
   }
 
   .carousel {
-    width: 100%;
+    margin-left: 70px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .material__Parrafo {
+    img {
+      width: 300px;
+    }
+  }
+
+  .carousel {
+    width: 300px;
+    height: 200px;
     margin-left: 10px;
+  }
+
+  .carousel-inner {
+    width: 300px;
+    height: 200px;
+  }
+
+  .imagen1,
+  .imagen2 {
+    width: 300px;
+    height: 200px;
   }
 }
