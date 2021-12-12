@@ -1,6 +1,7 @@
 @media only screen and (max-width: 1000px) {
   .carousel {
-    margin-left: 100px;
+    margin: auto;
+    margin-bottom: 20px;
   }
 
   .footer-grid {
@@ -16,7 +17,8 @@
   .carousel {
     width: 400px;
     height: 300px;
-    margin-left: 170px;
+    margin: auto;
+    margin-bottom: 20px;
   }
 
   .carousel-inner {
@@ -57,21 +59,27 @@
   }
 
   .carousel {
-    margin-left: 70px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .material__Imagen {
+    display: block;
+    width: 300px;
+    margin: auto;
+    margin-bottom: 15px;
+    float: none;
   }
 }
 
 @media only screen and (max-width: 500px) {
-  .material__Parrafo {
-    img {
-      width: 300px;
-    }
-  }
-
   .carousel {
     width: 300px;
     height: 200px;
-    margin-left: 10px;
+    margin: auto;
+    margin-bottom: 20px;
   }
 
   .carousel-inner {
