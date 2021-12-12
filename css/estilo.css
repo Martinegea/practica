@@ -205,7 +205,7 @@ body {
 }
 */
 .historia {
-  margin-top: 80px; }
+  margin-top: 15px; }
 
 .section__Titulos {
   font-size: 30px;
@@ -242,7 +242,7 @@ body {
   font-size: 30px;
   padding: 10px;
   font-weight: 800;
-  margin-top: 80px; }
+  margin-top: 15px; }
 
 .material__Parrafo {
   font-size: 1rem;
@@ -270,11 +270,12 @@ body {
   text-align: center; }
 
 .trenes__Titulo {
-  margin-top: 80px;
+  margin-top: 15px;
   font-size: 30px;
   padding: 10px;
   font-weight: 800;
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 15px; }
 
 .lsm {
   background: #99d2da;
@@ -302,7 +303,7 @@ body {
   font-size: 1rem; }
 
 .anecdota__Div--titulo {
-  margin-top: 80px;
+  margin-top: 15px;
   text-align: center;
   font-size: 30px;
   padding: 10px;
