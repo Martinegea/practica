@@ -20,3 +20,23 @@
   font-size: 25px;
   font-weight: 600;
 }
+
+.cartahistoria {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 25px;
+}
+
+.carta1 {
+  img {
+    filter: contrast(1.2);
+  }
+}
+
+.carta3 {
+  margin: auto;
+  margin-bottom: 25px;
+  img {
+    filter: contrast(1.2);
+  }
+}

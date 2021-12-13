@@ -1,4 +1,4 @@
-.anecdota__Div--titulo {
+@mixin anecdotatitulo {
   margin-top: 15px;
   text-align: center;
   font-size: 30px;
@@ -6,11 +6,19 @@
   font-weight: 800;
 }
 
+.anecdota__Div--titulo {
+  @include anecdotatitulo;
+}
+
+@mixin anecdotatitulo2($ubicacion, $tamano, $separacion, $grosor) {
+  text-align: $ubicacion;
+  font-size: $tamano;
+  padding: $separacion;
+  font-weight: $grosor;
+}
+
 .anecdota__Div--titulo2 {
-  text-align: center;
-  font-size: 25px;
-  padding: 10px;
-  font-weight: 500;
+  @include anecdotatitulo2(center, 25px, 10px, 500);
 }
 
 .anecdota__Div--parrafo {
@@ -34,8 +42,7 @@
 
 .imagen1,
 .imagen2 {
-  width: 700px;
-  height: 500px;
+  @extend .carousel-inner;
 }
 
 .d-block {

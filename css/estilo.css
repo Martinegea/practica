@@ -223,6 +223,20 @@ body {
   font-size: 25px;
   font-weight: 600; }
 
+.cartahistoria {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 25px; }
+
+.carta1 img {
+  filter: contrast(1.2); }
+
+.carta3 {
+  margin: auto;
+  margin-bottom: 25px; }
+  .carta3 img {
+    filter: contrast(1.2); }
+
 .material__Lista {
   margin-left: 10px; }
 
@@ -319,11 +333,7 @@ body {
   margin-bottom: 20px;
   box-shadow: 2px 2px 10px 0 black; }
 
-.carousel-inner {
-  width: 700px;
-  height: 500px; }
-
-.imagen1,
+.carousel-inner, .imagen1,
 .imagen2 {
   width: 700px;
   height: 500px; }
@@ -347,7 +357,8 @@ body {
     height: 300px;
     margin: auto;
     margin-bottom: 20px; }
-  .carousel-inner {
+  .carousel-inner, .imagen1,
+  .imagen2 {
     width: 400px;
     height: 300px; }
   .imagen1,
@@ -360,6 +371,12 @@ body {
     text-align: left;
     height: 400px;
     width: 310px; }
+  .cartahistoria {
+    display: block; }
+  .carta1,
+  .carta2 {
+    margin: auto;
+    margin-bottom: 15px; }
   .conteiner__imagen {
     width: 319px;
     height: 200px;
@@ -386,7 +403,8 @@ body {
     height: 200px;
     margin: auto;
     margin-bottom: 20px; }
-  .carousel-inner {
+  .carousel-inner, .imagen1,
+  .imagen2 {
     width: 300px;
     height: 200px; }
   .imagen1,
