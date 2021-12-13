@@ -223,14 +223,6 @@ body {
   font-size: 25px;
   font-weight: 600; }
 
-.cartashistoria {
-  display: flex;
-  justify-content: space-evenly; }
-
-.card {
-  margin-left: 20px;
-  margin-bottom: 15px; }
-
 .material__Lista {
   margin-left: 10px; }
 
@@ -372,8 +364,6 @@ body {
     width: 319px;
     height: 200px;
     margin-left: 0px; }
-  .cartashistoria {
-    margin-bottom: 20px; }
   .material__Titulo {
     font-size: 20px; }
   .table-responsive {
