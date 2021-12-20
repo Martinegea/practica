@@ -17,7 +17,12 @@
 }
 
 .gm {
-  background: rgb(129, 123, 185);
+  background: rgb(185, 184, 202);
+  color: rgb(0, 0, 0);
+}
+
+.gr {
+  background: rgb(48, 174, 247);
   color: rgb(0, 0, 0);
 }
 
@@ -27,7 +32,8 @@
 }
 
 .div__Tr--tdsm,
-.div__Tr--tdgm {
+.div__Tr--tdgm,
+.div__Tr--tdgr {
   font-size: 15px;
 }
 

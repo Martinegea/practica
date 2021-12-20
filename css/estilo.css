@@ -298,7 +298,11 @@ body {
   color: black; }
 
 .gm {
-  background: #817bb9;
+  background: #b9b8ca;
+  color: black; }
+
+.gr {
+  background: #30aef7;
   color: black; }
 
 .encabezado {
@@ -306,7 +310,8 @@ body {
   color: white; }
 
 .div__Tr--tdsm,
-.div__Tr--tdgm {
+.div__Tr--tdgm,
+.div__Tr--tdgr {
   font-size: 15px; }
 
 .ferro__Referencias--titulo {
