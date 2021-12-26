@@ -383,9 +383,8 @@ body {
 
 @media only screen and (max-width: 660px) {
   .video iframe {
-    text-align: left;
     height: 400px;
-    width: 310px; }
+    width: 500px; }
   .cartahistoria {
     display: block; }
   .carta1,
@@ -405,6 +404,9 @@ body {
     margin-bottom: 20px; } }
 
 @media only screen and (max-width: 580px) {
+  .video iframe {
+    height: 400px;
+    width: 400px; }
   .material__Imagen {
     display: block;
     width: 300px;
@@ -413,6 +415,9 @@ body {
     float: none; } }
 
 @media only screen and (max-width: 500px) {
+  .video iframe {
+    height: 400px;
+    width: 310px; }
   .carousel {
     width: 300px;
     height: 200px;
