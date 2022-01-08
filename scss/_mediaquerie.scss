@@ -34,9 +34,21 @@
 }
 
 @media only screen and (max-width: 660px) {
+  body {
+    line-height: 1.5;
+  }
+
+  .section__Parrafo {
+    padding: 10px;
+  }
+
   .video iframe {
     height: 400px;
     width: 500px;
+  }
+
+  .section__Parrafos {
+    padding: 10px;
   }
 
   .cartahistoria {
@@ -61,6 +73,10 @@
 
   .table-responsive {
     display: none;
+  }
+
+  .anecdota__Div--parrafo {
+    padding: 10px;
   }
 
   .carousel {

@@ -19,13 +19,14 @@ body {
   font-size: 25px;
   font-weight: 800;
   text-align: center;
-  padding: 5px; }
+  padding: 5px;
+  margin-top: 55px; }
 
 .section__Parrafo {
   display: flex;
   font-size: 20px;
   margin-left: 5px;
-  padding: 10px; }
+  padding: 80px; }
 
 .video {
   text-align: center;
@@ -132,7 +133,8 @@ body {
   text-transform: uppercase;
   color: black;
   font-weight: bold;
-  margin-left: 10px; }
+  margin-left: 10px;
+  padding: 30px 2px; }
 
 .form-responsive {
   display: flex;
@@ -207,7 +209,7 @@ body {
 }
 */
 .historia {
-  margin-top: 15px; }
+  margin-top: 55px; }
 
 .section__Titulos {
   font-size: 30px;
@@ -218,7 +220,7 @@ body {
 .section__Parrafos {
   margin-left: 10px;
   font-size: 1rem;
-  padding: 10px; }
+  padding: 80px; }
 
 .section__Parrafos::first-letter {
   font-family: serif;
@@ -235,15 +237,19 @@ body {
 
 .carta3 {
   margin: auto;
-  margin-bottom: 25px; }
+  margin-bottom: 75px; }
   .carta3 img {
     filter: contrast(1.2); }
+
+.inauguracion {
+  margin-top: 85px; }
 
 .material__Lista {
   margin-left: 10px; }
 
 .material__Lista a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: black; }
 
 .material__Lista--item {
   padding: 2px; }
@@ -253,7 +259,7 @@ body {
   font-size: 30px;
   padding: 10px;
   font-weight: 800;
-  margin-top: 15px; }
+  margin-top: 55px; }
 
 .material__Parrafo {
   font-size: 1rem;
@@ -288,12 +294,12 @@ body {
   text-align: center; }
 
 .trenes__Titulo {
-  margin-top: 25px;
+  margin-top: 55px;
   font-size: 25px;
   padding: 10px;
   font-weight: 800;
   text-align: center;
-  margin-bottom: 25px; }
+  margin-bottom: 45px; }
 
 .lsm {
   background: #99d2da;
@@ -326,7 +332,7 @@ body {
   font-size: 1rem; }
 
 .anecdota__Div--titulo {
-  margin-top: 15px;
+  margin-top: 55px;
   text-align: center;
   font-size: 30px;
   padding: 10px;
@@ -341,13 +347,13 @@ body {
 .anecdota__Div--parrafo {
   font-size: 1rem;
   margin-left: 5px;
-  padding: 10px; }
+  padding: 20px 100px; }
 
 .carousel {
   width: 700px;
   height: 500px;
   margin: auto;
-  margin-bottom: 20px;
+  margin-bottom: 60px;
   box-shadow: 2px 2px 10px 0 black; }
 
 .carousel-inner, .imagen1,
@@ -384,9 +390,15 @@ body {
     height: 300px; } }
 
 @media only screen and (max-width: 660px) {
+  body {
+    line-height: 1.5; }
+  .section__Parrafo {
+    padding: 10px; }
   .video iframe {
     height: 400px;
     width: 500px; }
+  .section__Parrafos {
+    padding: 10px; }
   .cartahistoria {
     display: block; }
   .carta1,
@@ -401,6 +413,8 @@ body {
     font-size: 20px; }
   .table-responsive {
     display: none; }
+  .anecdota__Div--parrafo {
+    padding: 10px; }
   .carousel {
     margin: auto;
     margin-bottom: 20px; } }
